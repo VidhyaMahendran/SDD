@@ -1,0 +1,26 @@
+{
+	"sgComment": "SG",
+	"srcFolder": "d:\\XT Summit 2016\\Style Guide Driven Development\\SDD",
+	"outputFile": "d:\\XT Summit 2016\\Style Guide Driven Development\\SDD\\styleguide\\dist\\styleguide.html",
+	"templateFile": "d:\\XT Summit 2016\\Style Guide Driven Development\\SDD\\template.html",
+	"themeFile": "d:\\XT Summit 2016\\Style Guide Driven Development\\SDD\\theme.css",
+	"highlightFolder": "c:\\Users\\pbha13\\AppData\\Roaming\\npm\\node_modules\\markdown-styleguide-generator\\node_modules\\highlight.js\\styles",
+	"highlightStyle": "github",
+	"excludeDirs": [
+		"target",
+		"node_modules"
+	],
+	"fileExtensions": {
+		"scss": true,
+		"sass": true,
+		"css": true,
+		"less": true
+	},
+	"walkerOptions": {
+		"followLinks": false
+	},
+	"customVars": {
+		"sampleVar": "Hello from customVars!"
+	},
+	"jqFile": "c:\\Users\\pbha13\\AppData\\Roaming\\npm\\node_modules\\markdown-styleguide-generator\\template\\jquery.js"
+}
