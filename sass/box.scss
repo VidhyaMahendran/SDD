@@ -1,0 +1,22 @@
+/* SG
+# Box
+
+Different fixed size boxes
+
+```
+<div class="box">...</div>
+<div class="box open">...</div>
+```
+*/
+
+.box {
+    height: 355px;
+    width: 295px;
+    background-size: 100% 355px;
+    background-image: url("../images/box_close.png");
+    margin: 0 1em 1em 0;
+}
+
+.open {
+    background-image: url("../images/box_open.png");
+}

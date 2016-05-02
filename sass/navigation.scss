@@ -1,0 +1,43 @@
+/* SG
+# Navigation
+
+Different kinds of Navigation
+
+```
+<nav>
+  <ul>
+    <li><a href="#">Sublink 1</a></li>
+    <li><a href="#">Sublink 2</a></li>
+    <li><a href="#">Sublink 3</a></li>
+    <li><a href="#">Sublink 4</a></li>
+  </ul>
+</nav>
+<nav class="clearfix">
+  <ul class="inline">
+    <li><a href="#">Sublink 1</a></li>
+    <li><a href="#">Sublink 2</a></li>
+    <li><a href="#">Sublink 3</a></li>
+    <li><a href="#">Sublink 4</a></li>
+  </ul>
+</nav>
+```
+*/
+
+nav {
+    margin: 0;
+    padding: 0;
+    li {
+        list-style: none;
+        margin: .5em;
+        padding: .5em;
+    }
+}
+
+nav {
+    .inline {
+        li {
+            float: left;
+            border: 1px solid red;
+        }
+    }
+}

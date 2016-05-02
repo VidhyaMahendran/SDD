@@ -1,0 +1,33 @@
+/* SG
+# Headings
+
+Headings usage from h1 to h6
+
+```
+<h1>Biggest heading</h1>
+<h2>Bigger heading</h2>
+<h3>Big heading</h3>
+<h4>Small heading</h4>
+<h5>Smaller heading</h5>
+<h6>Smallest heading</h6>
+```
+*/
+
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 1em;
+}
+h5 {
+    font-size: .8em;
+}
+h6 {
+    font-size: .5em;
+}

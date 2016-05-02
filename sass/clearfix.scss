@@ -1,0 +1,17 @@
+/* SG
+# Clearfix
+
+Resetting the floated space
+
+```
+<div class="clearfix">Clears this floated portion</div>
+```
+*/
+
+.clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
