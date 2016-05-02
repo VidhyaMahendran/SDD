@@ -20,6 +20,14 @@ Different kinds of Navigation
     <li><a href="#">Sublink 4</a></li>
   </ul>
 </nav>
+<nav>
+  <ul class="simpleInline">
+    <li><a href="#">Sublink 1</a></li>
+    <li><a href="#">Sublink 2</a></li>
+    <li><a href="#">Sublink 3</a></li>
+    <li><a href="#">Sublink 4</a></li>
+  </ul>
+</nav>
 ```
 */
 
@@ -30,6 +38,11 @@ nav {
         list-style: none;
         margin: .5em;
         padding: .5em;
+    }
+    .simpleInline {
+        li {
+            display: inline;
+        }
     }
 }
 
