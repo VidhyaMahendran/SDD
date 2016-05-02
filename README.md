@@ -12,7 +12,7 @@ Sample App with Living Style Guide using Node, Express, Jade, SASS, Grunt and st
 `styleguide`
 
 ### styleguide path
-`styleguide\dist\styleguide.html'
+`styleguide\dist\styleguide.html`
 
 ### View the Style guide with the actual rendering
 Add the below line in the styleguide.html page
