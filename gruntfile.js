@@ -23,9 +23,19 @@ module.exports = function(grunt) {
           'public/stylesheets/style.css': 'sass/style.scss'
         }
       }
-    }
+    },
+
+    
+      shell: {
+         
+          target: {
+              command: 'styleguide'
+          }
+      }
+  
   });
-  grunt.registerTask('default', ['sass:dist', 'watch']);
+  grunt.registerTask('default', ['sass:dist', 'watch','shell']);
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-shell');
 };
