@@ -31,11 +31,20 @@ module.exports = function(grunt) {
           target: {
               command: 'styleguide'
           }
+      },
+      express:{        
+        dev:{
+          options:{
+            script:'app.js'
+          }
+        }
       }
   
   });
-  grunt.registerTask('default', ['sass:dist', 'watch','shell']);
+  grunt.registerTask('default', ['sass:dist','shell','express','watch']);
+  grunt.registerTask('dev', ['express', 'watch']);
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-shell');
+  grunt.loadNpmTasks('grunt-express-server');
 };
