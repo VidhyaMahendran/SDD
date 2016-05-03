@@ -1,14 +1,15 @@
 {
 	"sgComment": "SG",
-	"srcFolder": "d:\\XT Summit 2016\\Style Guide Driven Development\\SDD",
-	"outputFile": "d:\\XT Summit 2016\\Style Guide Driven Development\\SDD\\styleguide\\dist\\styleguide.html",
-	"templateFile": "d:\\XT Summit 2016\\Style Guide Driven Development\\SDD\\template.html",
-	"themeFile": "d:\\XT Summit 2016\\Style Guide Driven Development\\SDD\\theme.css",
-	"highlightFolder": "c:\\Users\\pbha13\\AppData\\Roaming\\npm\\node_modules\\markdown-styleguide-generator\\node_modules\\highlight.js\\styles",
+	"srcFolder": "C:\\projects\\workspace\\SDD",
+	"outputFile": "C:\\projects\\workspace\\SDD\\styleguide\\dist\\styleguide.html",
+	"templateFile": "C:\\Users\\vmahe3\\AppData\\Roaming\\npm\\node_modules\\markdown-styleguide-generator\\template\\template.html",
+	"themeFile": "C:\\Users\\vmahe3\\AppData\\Roaming\\npm\\node_modules\\markdown-styleguide-generator\\template\\theme.css",
+	"highlightFolder": "C:\\Users\\vmahe3\\AppData\\Roaming\\npm\\node_modules\\markdown-styleguide-generator\\node_modules\\highlight.js\\styles",
 	"highlightStyle": "github",
 	"excludeDirs": [
 		"target",
-		"node_modules"
+		"node_modules",
+		"theme"
 	],
 	"fileExtensions": {
 		"scss": true,
@@ -22,5 +23,5 @@
 	"customVars": {
 		"sampleVar": "Hello from customVars!"
 	},
-	"jqFile": "c:\\Users\\pbha13\\AppData\\Roaming\\npm\\node_modules\\markdown-styleguide-generator\\template\\jquery.js"
+	"jqFile": "C:\\Users\\vmahe3\\AppData\\Roaming\\npm\\node_modules\\markdown-styleguide-generator\\template\\jquery.js"
 }
