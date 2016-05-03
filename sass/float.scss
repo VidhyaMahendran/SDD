@@ -1,14 +1,13 @@
 /* SG
 # Floats
 
-Different kinds of floating
+Floating left elements
 
 ```
-<div class="left">
-  Left Floated elements
-</div>
-<div class="right">
-  Right Floated elements
+<div class="clearfix">
+	<div class="left">
+	  Left Floated elements
+	</div>
 </div>
 ```
 */
@@ -16,6 +15,19 @@ Different kinds of floating
 .left {
     float: left;
 }
+/* SG
+# Floats
+
+Floating right elements
+
+```
+<div class="clearfix">
+	<div class="right">
+	  Right Floated elements
+	</div>
+</div>
+```
+*/
 .right {
     float: right;
 }
