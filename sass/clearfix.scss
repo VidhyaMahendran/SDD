@@ -9,9 +9,6 @@ Resetting the floated space
 */
 
 .clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+	overflow: auto;
+	zoom: 1;
 }

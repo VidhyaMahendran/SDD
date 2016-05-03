@@ -12,8 +12,16 @@ Different kinds of Navigation
     <li><a href="#">Sublink 4</a></li>
   </ul>
 </nav>
-<nav class="clearfix">
-  <ul class="inline">
+<nav class="headerNav">
+  <ul class="clearfix">
+    <li><a href="#">Sublink 1</a></li>
+    <li><a href="#">Sublink 2</a></li>
+    <li><a href="#">Sublink 3</a></li>
+    <li><a href="#">Sublink 4</a></li>
+  </ul>
+</nav>
+<nav class="inline">
+  <ul class="clearfix">
     <li><a href="#">Sublink 1</a></li>
     <li><a href="#">Sublink 2</a></li>
     <li><a href="#">Sublink 3</a></li>
@@ -46,11 +54,18 @@ nav {
     }
 }
 
-nav {
-    .inline {
-        li {
-            float: left;
-            border: 1px solid red;
+.inline {
+    li {
+        float: left;
+    }
+}
+
+.headerNav {
+    li {
+        a {
+            padding:2em .5em .5em .5em;
+            display: block;
+            background: url("../images/icon.png") no-repeat center .5em;
         }
     }
 }

@@ -9,5 +9,11 @@ Footer specific common styles
 */
 
 .footer {
+	background-color: $header-bg;
 	padding:1em 0;
+	color: $header-color;
+
+	a {
+		color: $header-color;
+	}
 }

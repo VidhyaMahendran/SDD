@@ -7,11 +7,9 @@ Color Coding styles
 <span>...</body>
 ```
 */
-.header, .footer {
-	background-color: #282a27;
-	color: #a6a6a0;
 
-	a {
-		color: #f3efea;
-	}
-}
+$header-bg: #282a27;
+$header-color: #a6a6a0;
+$header-linkcolor: #f3efea;
+$logo-bg: #3a3a3a;
+$border-bgcolor: #000;

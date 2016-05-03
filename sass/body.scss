@@ -7,3 +7,11 @@ Common styles
 <body>...</body>
 ```
 */
+@font-face {
+    font-family: DINCondRegular;
+    src: url("../fonts/DINCond-Regular.woff");
+}
+
+body {
+	font-family: DINCondRegular;
+}

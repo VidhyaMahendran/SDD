@@ -9,5 +9,16 @@ Header specific common styles
 */
 
 .header {
-	padding:1em 0;
+	background-color: $header-bg;
+	color: $header-color;
+
+	h1 {
+		padding:.5em 1em .5em 2em;
+		background-color: $logo-bg;
+		border-right: 3px solid $border-bgcolor;
+	}
+
+	a {
+		color: $header-color;
+	}
 }

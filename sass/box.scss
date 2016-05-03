@@ -4,8 +4,15 @@
 Different fixed size boxes
 
 ```
-<div class="box">...</div>
-<div class="box open">...</div>
+<ul class="boxSection clearfix">
+	<li class="box news left">
+		<div>
+			<h3><a href="#">Home</a></h3>
+			<p>Demystifying the Role of Artificial Intelligence in Marketing and...</p>
+			<p class="readMore"><a href="#" class="more">Read More</a></p>
+		</div>
+	</li>
+</ul>
 ```
 */
 
@@ -15,7 +22,39 @@ Different fixed size boxes
     background-size: 100% 355px;
     background-image: url("../images/box_close.png");
     margin: 0 1em 1em 0;
+    font-size: 2em;
+    div {
+    	padding: 24px;
+    }
+    h3 {
+    	text-align: center;
+    	margin: 0 0 1em;
+    	a {
+    		text-decoration: none;
+    	}
+    }
+    .readMore {
+    	margin: 3em 0 0 0;
+    }
 }
+/* SG
+# Box - Open
+
+Different fixed size boxes
+
+```
+<ul class="boxSection clearfix">
+	<li class="box news left open">
+		<div>
+			<h3><a href="#">Home</a></h3>
+			<p>Demystifying the Role of Artificial Intelligence in Marketing and...</p>
+			<p class="readMore"><a href="#" class="more">Read More</a></p>
+		</div>
+	</li>
+</ul>
+```
+*/
+
 
 .open {
     background-image: url("../images/box_open.png");
